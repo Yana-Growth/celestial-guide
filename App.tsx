@@ -5,7 +5,7 @@ import {
   Dumbbell, Coffee, MessageSquare, TrendingUp, Lightbulb, Settings, X, Gem, ChevronDown,
   PlusCircle, Shield, Hash
 } from 'lucide-react';
-import StarBackground from './components/StarBackground';
+import StarBackground from './components/starBackground';
 import AdvisorChat from './components/AdvisorChat';
 import { BirthData, UserState, DailyForecast } from './types';
 import { analyzeQuickEsoterics, analyzeDeepEsoterics, getDailyForecast, getPersonalCalendar } from './services/geminiService';
