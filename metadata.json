@@ -1,0 +1,7 @@
+{
+  "name": "Celestial Guide - Your Personal Esoteric Advisor",
+  "description": "A comprehensive astrology and numerology application providing birth chart analysis, numerological readings, and daily cosmic recommendations.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
