@@ -5,7 +5,6 @@ import {
   Dumbbell, Coffee, MessageSquare, TrendingUp, Lightbulb, Settings, X, Gem, ChevronDown,
   PlusCircle, Shield, Hash
 } from 'lucide-react';
-import StarBackground from './components/StarBackground';
 import AdvisorChat from './components/AdvisorChat';
 import { BirthData, UserState, DailyForecast } from './types';
 import { analyzeQuickEsoterics, analyzeDeepEsoterics, getDailyForecast, getPersonalCalendar } from './services/geminiService';
@@ -118,7 +117,6 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen relative bg-[#020617] text-slate-100 font-sans selection:bg-purple-500/30">
-      <StarBackground />
       <main className="relative z-10 container mx-auto px-4 py-8 max-w-7xl">
 
         {step === 'welcome' && (
